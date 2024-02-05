@@ -9,16 +9,19 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 /**
  *
  * @author Asif Mahmood
  */
-public class FXMLDocumentController implements Initializable {
+public class LoginController implements Initializable {
     
     @FXML
     private Label label;
+    @FXML
+    private Button button1;
     
     @FXML
     private void handleButtonAction(ActionEvent event) {
