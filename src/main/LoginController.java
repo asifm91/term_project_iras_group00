@@ -26,7 +26,9 @@ public class LoginController implements Initializable {
     @FXML
     private void handleButtonAction(ActionEvent event) {
         System.out.println("You clicked me!");
-        label.setText("Username or password does not match");
+
+        label.setText("Username and Password cannot be empty");
+
     }
     
     @Override
